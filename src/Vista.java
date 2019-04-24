@@ -293,8 +293,8 @@ public class Vista extends JFrame implements ActionListener {
         //montura.setBounds(690, 80, 306, 450);
         //montura.setIcon(new ImageIcon(getClass().getResource("/Imagenes/" + personaje.getMontura() + ".png")));
 
-        informacion.setBounds(390, 500, 500, 70);
-        informacion.setFont(new Font("Monospaced", Font.ITALIC, 14));
+        informacion.setBounds(420, 560, 500, 70);
+        informacion.setFont(new Font("Monospaced", Font.ITALIC, 10));
         informacion.setText(personaje.getLeyenda());
 
     }

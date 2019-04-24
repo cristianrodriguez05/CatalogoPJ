@@ -16,7 +16,7 @@ public class LeyendaArquero extends Leyenda {
     @Override
     public String mostrarLeyenda() {
         System.out.println("ok");
-        return "leyendaArquero";
+        return "<html><body>El arquero tiene su precisión similar a la de un águila lo que le permite ser <br>capaz de ver a su objetivo a una gran distancia, infringiendo un <br>gran daño gracias a su velocidad de lanzamiento,<br>su único problema son los ataques de cuerpo a cuerpo y los mágicos.</body></html>";
 
     }
 
